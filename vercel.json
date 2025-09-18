@@ -1,13 +1,17 @@
 {
     "version": 2,
-      "framework": null,
+    "framework": null,
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.7.4" }
     },
-    "routes": [{
-        "src": "/(.*)",
-        "dest": "/api/index.php"
-    }],
+    "routes": [
+        {
+            "src": "/(css|js|images|fonts|favicon)/(.)",
+            "dest": "/public/$1/$2",
+            "src": "/(.*)",
+            "dest": "/api/index.php"
+        }
+    ],
     "env": {
         "APP_NAME": "Luarsekolah",
         "APP_ENV": "production",
@@ -30,7 +34,7 @@
         "APP_FALLBACK_LOCALE": "en",
         "APP_FAKER_LOCALE": "en_US",
 
-        "BCRYPT_ROUNDS" : "12",
+        "BCRYPT_ROUNDS": "12",
 
         "DB_CONNECTION": "sqlite",
 
