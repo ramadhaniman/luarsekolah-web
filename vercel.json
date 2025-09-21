@@ -12,7 +12,6 @@
         { "src": "/build/(.*)", "dest": "public/build/$1" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
-    "outputDirectory": "public",
     "env": {
         "APP_NAME": "Luarsekolah",
         "APP_ENV": "production",
