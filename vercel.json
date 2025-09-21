@@ -17,7 +17,7 @@
         "APP_ENV": "production",
         "APP_KEY": "base64:hWlQjiaMIa+Ce8n/LOs7CVw+YGSx1xma9zhTnxP41yY=",
         "APP_DEBUG": "true",
-        "APP_URL": "https://yourprojectdomain.com",
+        "APP_URL": "https://luarsekolah-web.vercel.app/",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
