@@ -309,7 +309,6 @@ body {
 .program-card {
   display: flex;
   align-items: center;
-  justify-between;
   padding: var(--spacing-lg) var(--spacing-xl);
   border-radius: var(--radius-lg);
   transition: transform 0.2s ease-in-out;
@@ -339,7 +338,6 @@ body {
 .program-arrow {
   display: flex;
   align-items: center;
-  justify-center;
   width: 2rem;
   height: 2rem;
   background-color: var(--color-teal);
