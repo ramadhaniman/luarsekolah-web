@@ -11,7 +11,7 @@
 .nav-sec {
     background: white;
     border-bottom: 1px solid #d0d0d0;
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -110,8 +110,12 @@
 
 /* Hero Sec */
 .hero-sec {
-    height: 100vh;
+    width: 100%;
+    height: 761px;
     background-color: #ffcc00;
+}
+
+.hero-sec .hero-decor {
     position: relative;
 }
 
@@ -128,10 +132,11 @@
 .hero-sec .shape1 {
     position: absolute;
     top: 400px;
-    left: -50px;
-    width: 1000px;
-    height: 80px;
-    border-radius: 9999px;
+    left: 0;
+    width: 800px;
+    height: 100px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
     background-color: #2b7a68;
 }
 .hero-sec .shape2 {
@@ -143,7 +148,7 @@
     border-radius: 50px;
     background-color: #2b7a68;
 }
-.hero-sec .woman img{
+.hero-sec .woman img {
     display: block;
     position: absolute;
     left: 900px;
@@ -151,24 +156,80 @@
     height: 600px;
 }
 
-.hero-content{
+.shape1-content h3{
+    color: #fff;
+    position: relative;
+    top: 6px;
+}
+
+.hero-content {
     margin-left: 12%;
 }
 
-.hero-content .content-h1{
+.hero-content .content-h1 {
     position: absolute;
     display: inline-block;
-    background-color: #FFFEC1;
+    background-color: #fffec1;
     top: 160px;
     padding: 10px 21px;
     transform: rotate(-3deg);
 }
 
-.hero-content .content{
+.hero-content .content {
     position: absolute;
     top: 250px;
-    /* padding: 10px 21px; */
+    padding: 10px 21px;
 }
+
+.shape1-content {
+    padding-left: 27%;
+}
+
+.hero-card-list {
+    max-width: 1440px;
+    position: relative;
+}
+.hero-card {
+    width: 170px;
+    height: 80px;
+    border-radius: 8px;
+    background-color: #fffec1;
+    transform: skew(-30deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+}
+
+.hero-card:nth-child(1){
+    left: 0;
+}
+.hero-card:nth-child(2){
+    left: 0;
+    transform: skew(-30deg) translateX(190px);
+}
+.hero-card:nth-child(3){
+    left: 0;
+    transform: skew(-30deg) translateX(380px);
+}
+
+.hero-card-content {
+    transform: skew(30deg);
+}
+
+.hero-card .circle {
+    transform: skew(30deg) rotate(-45deg);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.circle img{
+    width: 24px;
+    height: 24px;
+}
+
 
 /* Banner Sec */
 .banner-sec {

@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luarsekolah</title>
-    <link rel="stylesheet" href="{{secure_asset('css/home2.css')}}">
+    <link rel="stylesheet" href="{{asset('css/home2.css')}}">
 </head>
 <body>
     <!-- Navigasi Sec Start -->
     <header class="nav-sec">
         <div class="navbar">
             <div class= "menu">
-                <a href=""><img src="{{ asset('assets/asset8.png') }}" alt=""></a>          
+                <a href=""><img src="{{ asset('assets/LS-logo.png') }}" alt=""></a>          
             </div>
 
             <div class="search">              
@@ -34,31 +34,64 @@
 
     <!-- Hero Sec Start -->
      <section class="hero-sec">
-           <div class="star-item1">
-                <img src="{{asset('assets/asset4.png')}}" alt="">
-           </div>
-           <div class="star-item2">
-                <img src="{{asset('assets/asset4.png')}}" alt="">
-           </div>
-           <div class="shape1">
-           </div>
-           <div class="shape2">
-           </div>
-           <div class="woman">
-                <img src="{{asset('assets/asset1.png')}}" alt="">
-           </div>
-
-           <div class="hero-content">
-                <div class="content-h1">
-                    <h1>Upgrade skill kamu</h1>
+        <div class="hero-decor">
+            <div class="decor1">
+                <div class="star-item1">
+                    <img src="{{asset('assets/asset4.png')}}" alt="">
                 </div>
-
-                <div class="content">
-                    <h2>Mulai dari nol sampai jago, semuanya bisa,<br>Yuk belajar bareng Luarsekolah</h2>
-
-                    <p>luarsekolah adalah platform edukasi vokasi dan <br>pengembangan diri berbasis teknologi digital dengan materi-<br>materi terkurasi dari para pengajar berpengalaman untuk<br>mendampingi generasi muda Indonesia belajar</p>
+                <div class="star-item2">
+                    <img src="{{asset('assets/asset4.png')}}" alt="">
                 </div>
-           </div>
+                <div class="shape1">
+                    <div class="shape1-content">
+                        <h3>Program-program Luarsekolah</h3>
+
+                        <div class="hero-card-list">
+                            <div class="hero-card">
+                                <div class="hero-card-content">                    
+                                    <a href="">Prakerja</a>
+                                </div>
+                                <div class="circle"><img src="{{asset('assets/arrow.png')}}" alt=""></div>
+                            </div>
+                            <div class="hero-card">
+                                <div class="hero-card-content">
+                                    <a href="">Belajar<br>Bekerja</a>   
+                                </div>
+                                <div class="circle"><img src="{{asset('assets/arrow.png')}}" alt=""></div>
+                            </div>
+                            <div class="hero-card">
+                                <div class="hero-card-content">
+                                    <a href="">Prakerja<br>ISW</a>
+                                </div>
+                                <div class="circle"><img src="{{asset('assets/arrow.png')}}" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="decor2">
+                <div class="shape2">
+                </div>
+                <div class="woman">
+                    <img src="{{asset('assets/asset1.png')}}" alt="">
+                </div>
+            </div>          
+        </div>
+        
+
+        <div class="hero-content">
+            <div class="content-h1">
+                <h1>Upgrade skill kamu</h1>
+            </div>
+
+            <div class="content">
+                <h2>Mulai dari nol sampai jago, semuanya bisa,<br>Yuk belajar bareng Luarsekolah</h2>
+
+                <p>luarsekolah adalah platform edukasi vokasi dan <br>pengembangan diri berbasis teknologi digital dengan materi-<br>materi terkurasi dari para pengajar berpengalaman untuk<br>mendampingi generasi muda Indonesia belajar</p>
+            </div>
+        </div>
      </section>
     <!-- Hero Sec End -->
 
