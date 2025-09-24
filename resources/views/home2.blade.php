@@ -11,16 +11,16 @@
     <header class="nav-sec">
         <div class="navbar">
             <div class= "menu">
-                <a href=""><img src="{{ secure_aasset('assets/LS-logo.png') }}" alt=""></a>          
+                <a href=""><img src="{{ secure_asset('assets/LS-logo.png') }}" alt=""></a>          
             </div>
 
             <div class="search">              
                 <input type="text" placeholder="Cari program Pelatihan">
                 <div class="search-icon">
-                    <img src="{{secure_aasset('assets/search_icon.png')}}" alt="">
+                    <img src="{{secure_asset('assets/search_icon.png')}}" alt="">
                 </div>
                 <div class="cross-icon hidden">
-                    <img src="{{secure_aasset('assets/cross_icon.png')}}" alt="">
+                    <img src="{{secure_asset('assets/cross_icon.png')}}" alt="">
                 </div>
             </div>
 
@@ -37,10 +37,10 @@
         <div class="hero-decor">
             <div class="decor1">
                 <div class="star-item1">
-                    <img src="{{secure_aasset('assets/asset4.png')}}" alt="">
+                    <img src="{{secure_asset('assets/asset4.png')}}" alt="">
                 </div>
                 <div class="star-item2">
-                    <img src="{{secure_aasset('assets/asset4.png')}}" alt="">
+                    <img src="{{secure_asset('assets/asset4.png')}}" alt="">
                 </div>
                 <div class="shape1">
                     <div class="shape1-content">
@@ -51,19 +51,19 @@
                                 <div class="hero-card-content">                    
                                     <a href="">Prakerja</a>
                                 </div>
-                                <div class="circle"><img src="{{secure_aasset('assets/arrow.png')}}" alt=""></div>
+                                <div class="circle"><img src="{{secure_asset('assets/arrow.png')}}" alt=""></div>
                             </div>
                             <div class="hero-card">
                                 <div class="hero-card-content">
                                     <a href="">Belajar<br>Bekerja</a>   
                                 </div>
-                                <div class="circle"><img src="{{secure_aasset('assets/arrow.png')}}" alt=""></div>
+                                <div class="circle"><img src="{{secure_asset('assets/arrow.png')}}" alt=""></div>
                             </div>
                             <div class="hero-card">
                                 <div class="hero-card-content">
                                     <a href="">Prakerja<br>ISW</a>
                                 </div>
-                                <div class="circle"><img src="{{secure_aasset('assets/arrow.png')}}" alt=""></div>
+                                <div class="circle"><img src="{{secure_asset('assets/arrow.png')}}" alt=""></div>
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@
                 <div class="shape2">
                 </div>
                 <div class="woman">
-                    <img src="{{secure_aasset('assets/asset1.png')}}" alt="">
+                    <img src="{{secure_asset('assets/asset1.png')}}" alt="">
                 </div>
             </div>          
         </div>
@@ -99,29 +99,29 @@
      <section class="banner-sec">
         <div class="banner-nav">
             <div class="banner-arrow">
-                <a href=""><img src="{{secure_aasset('assets/left-arrow.png')}}" alt=""></a>
+                <a href=""><img src="{{secure_asset('assets/left-arrow.png')}}" alt=""></a>
             </div>
             <div class="banner-arrow">
-                <a href=""><img src="{{secure_aasset('assets/right-arrow.png')}}" alt=""></a>
+                <a href=""><img src="{{secure_asset('assets/right-arrow.png')}}" alt=""></a>
             </div>
         </div>
         
         <div class="banner-wrap">
             <ul>
                 <li class="banner-card">
-                    <a href=""><img src="{{secure_aasset('assets/banner1.png')}}" alt=""></a>
+                    <a href=""><img src="{{secure_asset('assets/banner1.png')}}" alt=""></a>
                 </li>
                 <li class="banner-card">
-                    <a href=""><img src="{{secure_aasset('assets/banner2.png')}}" alt=""></a>
+                    <a href=""><img src="{{secure_asset('assets/banner2.png')}}" alt=""></a>
                 </li>
                 <li class="banner-card">
-                    <a href=""><img src="{{secure_aasset('assets/banner3.png')}}" alt=""></a>
+                    <a href=""><img src="{{secure_asset('assets/banner3.png')}}" alt=""></a>
                 </li>
                 <li class="banner-card">
-                    <a href=""><img src="{{secure_aasset('assets/banner1.png')}}" alt=""></a>
+                    <a href=""><img src="{{secure_asset('assets/banner1.png')}}" alt=""></a>
                 </li>
                 <li class="banner-card">
-                    <a href=""><img src="{{secure_aasset('assets/banner2.png')}}" alt=""></a>
+                    <a href=""><img src="{{secure_asset('assets/banner2.png')}}" alt=""></a>
                 </li>           
             </ul>
         </div>
@@ -133,7 +133,7 @@
         <div class="voucher-container">
             <div class="voucher-content">
                 <div class="voucher-img">
-                    <img src="{{secure_aasset('assets/hands-phone.png')}}" alt="">
+                    <img src="{{secure_asset('assets/hands-phone.png')}}" alt="">
                 </div>
 
                 <div>
@@ -153,7 +153,7 @@
 
         <div class="program-container">
             <div class="program-card">
-                <div class="program-img"><img src="{{secure_aasset('assets/program1.png')}}" alt=""></div>
+                <div class="program-img"><img src="{{secure_asset('assets/program1.png')}}" alt=""></div>
 
                 <div>
                     <h2>Kartu Prakerja</h2>
@@ -161,7 +161,7 @@
                 </div>
             </div>
             <div class="program-card">
-                <div class="program-img"><img src="{{secure_aasset('assets/program2.png')}}" alt=""></div>
+                <div class="program-img"><img src="{{secure_asset('assets/program2.png')}}" alt=""></div>
 
                 <div>
                     <h2>Kartu Prakerja</h2>
@@ -169,7 +169,7 @@
                 </div>
             </div>
             <div class="program-card">
-                <div class="program-img"><img src="{{secure_aasset('assets/program2.png')}}" alt=""></div>
+                <div class="program-img"><img src="{{secure_asset('assets/program2.png')}}" alt=""></div>
 
                 <div>
                     <h2>Kartu Prakerja</h2>
