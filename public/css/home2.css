@@ -382,13 +382,27 @@
     width: 15px;
 }
 
-.content-3 {
+.hero-achive {
     position: relative;
     background-color: #2b7a68;
     top: 640px;
     margin: 0 11%;
-    height: 130px;
+    height: 100px;
     border-radius: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-achive .achive-item {
+    color: #ffffff;
+    font-family: "poppins";
+    text-align: center;
+}
+
+.achive-item p:nth-child(1) {
+    font-size: xx-large;
+    font-weight: 600;
 }
 
 /* Banner Sec */
@@ -506,7 +520,7 @@
 
 /* Styling Class Sec */
 .class-sec {
-    background-color: #eafff7;
+    background-color: #fffee7;
     padding: 36px 58px;
 }
 
@@ -527,8 +541,24 @@
         hsl(65deg 47% 89%) 100%,
         hsl(58deg 100% 95%) 100%
     );
-    padding: 24px 12%;
+    padding: 55px 4.6%;
     border-radius: 40px;
+}
+
+.class-container .class-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class-top div:nth-child(1) {
+    max-width: 400px;
+}
+.class-top div:nth-child(2) {
+    max-width: 640px;
+    color: #ffffff;
+    font-family: "poppins";
+    font-size: smaller;
 }
 
 .class-container h1 {
@@ -539,12 +569,13 @@
 }
 
 .class-container .class-content {
-    margin: 30px 5%;
+    margin-top: 30px;
 }
 
-.class-content .class-filter {
+.class-filter {
     display: flex;
     gap: 16px;
+    margin-top: 62px;
 }
 
 .class-filter .filter {
@@ -577,18 +608,19 @@
     display: block;
 }
 
-.class-content .class-item {
+.class-item {
     display: flex;
     flex-wrap: wrap;
-    gap: 21px;
     margin-top: 36px;
+    justify-content: space-between;
 }
 
 .class-item .class-card {
-    flex: 0 0 294px;
+    flex: 0 0 282px;
     background: #ffffff;
     border-radius: 40px;
     padding: 16px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -654,7 +686,7 @@
     height: 18px;
 }
 
-.class-content .other-btn {
+.other-btn {
     background-color: #ffffff;
     padding: 8px 24px;
     display: flex;
@@ -680,19 +712,83 @@
 
 /* Styling Program Sec */
 .program-sec {
-    padding: 2rem 12%;
-    background: #fff;
+    background-color: #fffee7;
+    padding: 36px 58px;
 }
 
-.program-container {
+.program-sec .program-container {
+    background-image: linear-gradient(
+        135deg,
+        hsl(168deg 100% 20%) 0%,
+        hsl(160deg 47% 31%) 10%,
+        hsl(152deg 31% 38%) 24%,
+        hsl(144deg 23% 44%) 49%,
+        hsl(135deg 17% 51%) 81%,
+        hsl(124deg 16% 57%) 91%,
+        hsl(112deg 18% 62%) 95%,
+        hsl(101deg 20% 67%) 98%,
+        hsl(91deg 23% 72%) 99%,
+        hsl(82deg 27% 78%) 100%,
+        hsl(74deg 34% 83%) 100%,
+        hsl(65deg 47% 89%) 100%,
+        hsl(58deg 100% 95%) 100%
+    );
+    padding: 55px 4.6%;
+    border-radius: 40px;
+    font-family: "poppins";
+}
+
+.program-container .program-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.program-top div:nth-child(1) {
+    max-width: 400px;
+    color: #ffffff;
+}
+.program-top div:nth-child(2) {
+    max-width: 640px;
+    color: #ffffff;
+    font-family: "poppins";
+    font-size: smaller;
+}
+
+.program-bottom .bottom-item {
     display: flex;
     justify-content: space-between;
 }
 
-.program-card {
-    width: 355px;
-    height: 201.33px;
-    border: 1px solid #d0d0d0;
+.bottom-item .bottom-card {
+    flex: 0 0 588px;
+    background-image: linear-gradient(
+        135deg,
+        hsl(51deg 100% 53%) 0%,
+        hsl(50deg 95% 51%) 59%,
+        hsl(49deg 95% 49%) 74%,
+        hsl(48deg 97% 47%) 83%,
+        hsl(47deg 98% 45%) 89%,
+        hsl(46deg 99% 44%) 93%,
+        hsl(45deg 99% 42%) 96%,
+        hsl(44deg 99% 41%) 98%,
+        hsl(43deg 99% 39%) 99%,
+        hsl(41deg 99% 38%) 100%,
+        hsl(40deg 98% 36%) 100%,
+        hsl(39deg 98% 35%) 100%,
+        hsl(38deg 98% 33%) 100%
+    );
+    border-radius: 40px;
+    padding: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.bottom-card-content h3 {
+    font-size: 24px;
 }
 
 /* styling Testimony Sec */
@@ -803,19 +899,19 @@
     }
 }
 
-.testimony-list:hover .testimony-card{
+.testimony-list:hover .testimony-card {
     animation-play-state: paused;
 }
 
 .testimony-card .quote {
     align-self: flex-start;
     left: 0;
-    font-size: 40px; 
+    font-size: 40px;
     width: 40px;
     height: 40px;
-    line-height: 40px; 
-    margin: 0; 
-    padding: 0; 
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
     text-align: center;
     color: #006752;
 }
@@ -871,4 +967,83 @@
     width: 96px;
     height: 96px;
     border-radius: 50%;
+}
+
+.contact-sec {
+    background-color: ffffff;
+    padding: 30px 17%;
+}
+
+.contact-container {
+    background-image: linear-gradient(
+        135deg,
+        hsl(168deg 100% 20%) 0%,
+        hsl(160deg 47% 31%) 10%,
+        hsl(152deg 31% 38%) 24%,
+        hsl(144deg 23% 44%) 49%,
+        hsl(135deg 17% 51%) 81%,
+        hsl(124deg 16% 57%) 91%,
+        hsl(112deg 18% 62%) 95%,
+        hsl(101deg 20% 67%) 98%,
+        hsl(91deg 23% 72%) 99%,
+        hsl(82deg 27% 78%) 100%,
+        hsl(74deg 34% 83%) 100%,
+        hsl(65deg 47% 89%) 100%,
+        hsl(58deg 100% 95%) 100%
+    );
+    padding: 30px 4.6%;
+    border-radius: 40px;
+    font-family: "poppins";
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-container p {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.footer-sec {
+    background-color: #fffee7;
+    padding: 36px 12%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+    margin-bottom: 100px;
+}
+
+.footer-top-item {
+    flex: var(--grow, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top-logo img {
+    display: block;
+    position: relative;
+    left: -10px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
 }
